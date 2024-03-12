@@ -1,0 +1,59 @@
+/* Global rules */
+@import url(./global.css);
+
+/* Nav Bar */
+.navbar img{
+    margin-left: 5px;
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    transform: translate(0, 0.1em);
+}
+.navbar ul {
+    position: fixed;
+    transform: translateX(-8px);
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1e1f22;
+}
+.navbar li {
+    font-size: large;
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+.navbar li:first-child {
+    float: left;
+    font-weight:bold;
+}
+.navbar a:first-of-type{
+    margin-right: 15px;
+}
+.navbar a:hover {
+    color: #ffffff6b;
+}
+
+/* Main + Info */
+.main, .info {
+    margin: 15vh 5%;
+    font-size: larger;
+}
+.main a {
+    margin: 5px;
+}
+.more h3 {
+    padding-top: 1vh;
+}
+.more p {
+    padding-left: 20px;
+}

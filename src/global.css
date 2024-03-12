@@ -1,0 +1,43 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+
+body {
+    font-family: 'Segoe UI';
+    color: #fff;
+    background-color: #2c2f33;
+}
+a.btn {
+    background-color: #5865f2;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+a.btn:hover {
+    background-color: #3d47af;
+    color: #ffffffce;
+    text-decoration: none;
+}
+a {
+    color: #5865f2;
+}
+a:hover {
+    color: #3d47af;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 22px;
+    background: #ffffff00;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 22px;
+    background: #88888828;
+}
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 22px;
+    background: #a8a8a891;
+}
